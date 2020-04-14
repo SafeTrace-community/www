@@ -4,26 +4,50 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-(function($) {
+(function ($) {
 
-	var	$window = $(window),
-		$body = $('body');
+	var $window = $(window),
+		$body = $('body')
 
 	// Breakpoints.
-		breakpoints({
-			wide:      [ '1281px',  '1680px' ],
-			normal:    [ '981px',   '1280px' ],
-			narrow:    [ '841px',   '980px'  ],
-			narrower:  [ '737px',   '840px'  ],
-			mobile:    [ '481px',   '736px'  ],
-			mobilep:   [ null,      '480px'  ]
-		});
+	breakpoints({
+		wide: ['1281px', '1680px'],
+		normal: ['981px', '1280px'],
+		narrow: ['841px', '980px'],
+		narrower: ['737px', '840px'],
+		mobile: ['481px', '736px'],
+		mobilep: [null, '480px']
+	})
 
 	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+	$window.on('load', function () {
+		window.setTimeout(function () {
+			$body.removeClass('is-preload')
+		}, 100)
+	})
 
-})(jQuery);
+	const form = $('#contact-form')
+
+	form.on('submit', (ev) => {
+		ev.preventDefault()
+
+		const data = {}
+
+		form.serializeArray().forEach((item) => {
+			const { name, value } = item
+			data[name] = value
+		})
+
+		$.ajax({
+			method: 'POST',
+			url: '/contact',
+			data: data
+		})
+		.done(() => {
+			form.slideUp()
+		})
+
+		return false
+	})
+
+})(jQuery)

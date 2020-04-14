@@ -5,6 +5,8 @@ const yenv = require('yenv')
 const app = express()
 const config = yenv()
 
+const sendEmail = require('./utils/email.util')
+
 // set env vars into the app object
 app.set('port', config.PORT)
 
@@ -19,6 +21,30 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get('/', (req, res) => {
     res.render('index')
+})
+
+app.post('/contact', (req, res) => {
+    Promise
+        .all([
+            sendEmail({
+                to: req.body.email,
+                text: 'Thank you for reaching out! One of our team members will be in touch within 24 - 48 hours.'
+            }),
+            sendEmail({
+                to: 'info@safetrace.io',
+                text: `Someone reached out to us via the website\n\n\nEmail: ${req.body.email}\n\nEmail: ${req.body.email}\n\nMessage: ${req.body.message}`
+            })
+        ])
+        .then(() => {
+            res.json({
+                ok: 1
+            })
+        })
+        .catch(() => {
+            res.status(400).json({
+                ok: 1
+            })
+        })
 })
 
 app.get('*', (req, res) => {
