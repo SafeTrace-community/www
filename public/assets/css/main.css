@@ -2764,7 +2764,6 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			background: #4eb980;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2774,7 +2773,7 @@ input, select, textarea {
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 2.35em;
+			width: 5.35em;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
@@ -3015,6 +3014,11 @@ input, select, textarea {
 				height: 18em;
 			}
 
+			.feature.long {
+				padding-top: 40px;
+				height: 22em !important;
+			}
+
 				.feature .content {
 					padding: 2.5em;
 				}
@@ -3189,7 +3193,7 @@ input, select, textarea {
 				}
 
 				#header .logo {
-					font-size: 1.5em;
+					font-size: 2.5em;
 				}
 
 				#header h1 {
@@ -3301,3 +3305,9 @@ input, select, textarea {
 				}
 
 	}
+
+
+ul.section-bullets {
+	text-align: left;
+    list-style: decimal-leading-zero;
+}
