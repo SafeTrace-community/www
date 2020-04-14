@@ -2712,7 +2712,7 @@ input, select, textarea {
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 10em 0 20em 0;
+		padding: 7em 0 20em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2768,7 +2768,7 @@ input, select, textarea {
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
-			font-size: 2.25em;
+			font-size: 3.25em;
 			height: 2.35em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
@@ -2953,7 +2953,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 8em 0 16em 0;
+				padding: 4em 0 8em 0;
 			}
 
 				#header h1 {
@@ -3193,7 +3193,7 @@ input, select, textarea {
 				}
 
 				#header .logo {
-					font-size: 2.5em;
+					font-size: 3.5em;
 				}
 
 				#header h1 {
