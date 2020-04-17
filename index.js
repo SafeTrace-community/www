@@ -22,6 +22,12 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.get('/', (req, res) => {
     res.render('index')
 })
+app.get('/news', (req, res) => {
+    res.render('news')
+})
+app.get('/policy-brief', (req, res) => {
+    res.render('news')
+})
 
 app.post('/contact', (req, res) => {
     Promise
