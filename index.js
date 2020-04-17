@@ -26,7 +26,7 @@ app.get('/news', (req, res) => {
     res.render('news')
 })
 app.get('/policy-brief', (req, res) => {
-    res.render('news')
+    res.render('policy-brief')
 })
 
 app.post('/contact', (req, res) => {
