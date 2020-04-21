@@ -29,6 +29,10 @@ app.get('/policy-brief', (req, res) => {
     res.render('policy-brief')
 })
 
+app.get('/privacy', (req, res) => {
+    res.render('privacy')
+})
+
 app.post('/contact', (req, res) => {
     Promise
         .all([
