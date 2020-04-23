@@ -25,6 +25,9 @@ app.get('/', (req, res) => {
 app.get('/news', (req, res) => {
     res.render('news')
 })
+app.get('/contact', (req, res) => {
+    res.render('index')
+})
 app.get('/policy-brief', (req, res) => {
     res.render('policy-brief')
 })
