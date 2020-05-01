@@ -41,7 +41,7 @@ app.post('/contact', (req, res) => {
                 text: 'Thank you for reaching out! One of our team members will be in touch within 24 - 48 hours.'
             }),
             sendEmail({
-                to: 'info@safetrace.io',
+                to: 'info@sharetrace.org',
                 text: `Someone reached out to us via the website\n\n\nEmail: ${req.body.email}\n\nEmail: ${req.body.email}\n\nMessage: ${req.body.message}`
             })
         ])
