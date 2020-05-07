@@ -33,6 +33,10 @@ app.get('/privacy', (req, res) => {
     res.render('privacy')
 })
 
+app.get('/contact', (req, res) => {
+    res.render('contact')
+})
+
 app.post('/contact', (req, res) => {
     Promise
         .all([
