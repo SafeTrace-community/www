@@ -25,8 +25,8 @@ app.get('/', (req, res) => {
 app.get('/news', (req, res) => {
     res.render('news')
 })
-app.get('/policy-brief', (req, res) => {
-    res.render('policy-brief')
+app.get('/faq', (req, res) => {
+    res.render('faq')
 })
 
 app.get('/privacy', (req, res) => {

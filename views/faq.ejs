@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>sharetrace | FAQ</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="/public/assets/css/main.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165600971-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-165600971-1');
+	</script>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<div id="header">
+		<span class="logo icon">
+			<a href="/"><img src="/public/images/sharetrace-logo.png" style="border-radius: 50%; width: 288px;" /></a>
+		</span>
+		<h1>
+			sharetrace - faq
+		</h1>
+	</div>
+
+	<!-- Main -->
+	<div id="main">
+		<div class="box container">
+			<section>
+				<h2>General</h2>
+				<p><strong>What is the ShareTrace app?</strong></p>
+				<p>The SafeTrace app (iOS & Android) is a smart digital contact tracing service.</p>
+				<p><strong>What does it do?</strong></p>
+				<p>ShareTrace provides contact tracing in a privacy-preserving way and offers additional personalized infection risk management tools with which individual users and communities can fight the spread of Covid-19.</p>
+				<p><strong>Why do we need it?</strong></p>
+				<p>Due to the speed and subtlety of virus transmission as well as the scope of the pandemic, digital contact tracing has emerged as a powerful tool to assist government and healthcare authorities to rapidly respond to the public health crisis.</p>
+				<p><strong>Who is supporting the app?</strong></p>
+				<p>ShareTrace is led by a team from Case Western Reserve University, Cleveland Clinic’s Hwang Lab, and HAT-LAB. Originally started from a virtual, global hackathon, #hackfromhome, a challenge that involved 822 participants from 62 countries, ShareTrace members include researchers, developers, designers, and students.</p>
+				<p><strong>Is the project open source?</strong></p>
+				<p>Yes. The implementations of the open source can be found <a href="https://github.com/SafeTrace-community">here</a>.</p>
+				<p><strong>Why do we need it?</strong></p>
+				<p>Users with devices running Apple iOS and Google's Android can register to become beta testers of the application. <a href="https://www.sharetrace.org/news?p=safetrace-recruiting-alpha-testers-for-android-application">Click here for Android</a> and <a href="https://www.sharetrace.org/news?p=we-are-ready-for-alpha-testers-for-an-early-version-of-our-ios-app">click here for iOS</a>.</p>
+				<p><strong>How does it protect privacy? </strong></p>
+				<p>ShareTrace uses  state-of-the-art decentralized Personal Data Accounts (PDA) to store symptoms and contact histories of individual Sharetrace users. Users legally own their PDA, and only users have access to these.<br /><br />Sharetrace users use the computational functions of their PDA to calculate a personal Covid-19 risk score. With the permission of the user, this risk score is then de-identified and sent to the Sharetrace server, where it is used as an anonymous digital twin to contribute to our hyperlocal network propagation model. In this model, the individual risk scores are recalculated based upon their encounter histories, and the updated risk scores are propagated back down the the PDAs owned by the users.</p>
+				<p><strong>What is a digital twin?</strong></p>
+				<p>In this case a digital twin is an anonymised risk score that is sent to the Sharetrace server from the PDA and used to represent an individual user and their interactions with others.</p>
+				<p><strong>What is a PDA?</strong></p>
+				<p>A Personal Data Account. A PDA is a state-of-the-art decentralized microserver that enables users to gain legal and functional control over their personal data.</p>
+			</section>
+			<section>
+				<h2>Competitors</h2>
+				<p><strong>What are conventional digital contact tracing models?</strong></p>
+				<p>Most conventional contact tracing apps adopt a decentralized proximity list based model using the transfer of Bluetooth IDs.</p>
+				<p><strong>What does Apple and Google do?</strong></p>
+				<p>Apple and Google have announced their joint efforts to produce a decentralised privacy-preserving “Exposure Notification” system that provides the conventional anonymized contact lists for collecting Bluetooth radio signals on a user’s device. The release of their application programming interface will allow other contact tracing apps to work across Android and iOS devices.</p>
+				<p><strong>What does a decentralized proximity list offer?</strong></p>
+				<p>It can locally calculate whether the smartphone owner is at risk of having been exposed to a virus because they were in close proximity to an infected individual.</p>
+				<p><strong>What are some concerns with the decentralised proximity method?</strong></p>
+				<p>This method is only partially effective in quickly and efficiently identifying individuals at high risk of infection, particularly with highly viral epidemic situations, where many carriers of a virus are asymptomatic.</p>
+				<p><strong>What makes ShareTrace’s contact tracing model different?</strong></p>
+				<p>ShareTrace deals with the problem of asymptomatic carriers. To do so, it uses a hyperlocal network propagation model in quickly and effectively calculating and notifying the exposure risks from direct and indirect encounters.<br /><br />The app does this not just between users who test positive, but also pre-tested symptomatic and asymptomatic users, so ShareTrace can identify potential exposure to Covid-19 much earlier than other approaches.</p>
+				<p><strong>Why is a network propagation model important?</strong></p>
+				<p>It allows a) the identification of direct and indirect encounters; and (b) the ability to update the potential risk of a user to others based on their symptoms and their encounter history</p>
+			</section>
+			<section>
+				<h2>Specifics</h2>
+				<p><strong>Are data stored and processed in a centralised or decentralised manner?</strong></p>
+				<p>Decentralised, ShareTrace’s use of PDAs and the HAT microserver offers a state-of-the-art privacy by design architecture in which data storage and processing is decentralised in the cloud.</p>
+				<p><strong>Does the app use GPS, bluetooth or both?</strong></p>
+				<p>ShareTrace uses Bluetooth IDs that are transmitted to other devices during a contact. Bluetooth IDs are updated regularly to avoid potential bluetooth location tracking.<br /><br />GPS data is also collected only with the explicit opt-in consent from the user to be shared with epidemiologists and research groups to enable these groups to further analyze the spread of the virus.</p>
+				<p><strong>What other data is collected?</strong></p>
+				<p>Data pertaining to the users symptoms is required to generate their risk score and is stored in their PDA before being uploaded to the ShareTrace server.</p>
+				<p><strong>How does the app track a user's risk?</strong></p>
+				<p>A user’s risk is updated when there are changes in (i) their own symptoms, (ii) symptoms of other users in the networks, (iii) diagnosis of other users (not necessarily direct contacts), and (iv) changes in the interaction network (not just direct contacts of the users).</p>
+				<p><strong>So what actually gets stored in the user's PDA?</strong></p>
+				<p>Both the local contact vector and symptom vector of the user will be stored at the user’s PDA and it will be updated over time (as the user has new interactions or as the user updates their symptoms).<br /><br />Individual GPS data is collected differently to provide privacy guarantees and is then stored in the users PDA.</p>
+				<p><strong>What data is processed in the ShareTrace server?</strong></p>
+				<p>ShareTrace server updates the risk scores of users by (i) creating the interaction graph and (ii) applying the graph propagation algorithm on the constructed graph.</p>
+				<p><strong>What happens to the data once it has been processed in the server?</strong></p>
+				<p>ShareTrace server does not store data permanently. It deletes the collected data and parameters after each processing. We require this to minimize the risk of linkability between two interaction graphs that are generated on two different days (and hence to minimize the risk of tracing a user).</p>
+				<p><strong>How does the ShareTrace server protect against deanonymization?</strong></p>
+				<p>The interaction graph that is used in the server includes no location information about the users. Also, it is computationally infeasible to deanonymize large scale graph data, especially when there is no auxiliary graph to help.</p>
+				<p><strong>How do I own my data?</strong></p>
+				<p>By using a HAT microserver the user is given intellectual property rights of personal data through their ownership of a database, wrapped with containerised microservices.</p>
+				<p><strong>Is the ShareTrace app interoperable?</strong></p>
+				<p>ShareTrace is designed to provide interoperability with other contact tracing apps. This requires a common Bluetooth ID framework for contact vectors to be shared. When a cross-platform Bluetooth ID broadcasting framework emerges, ShareTrace users (in-network users) can collect Bluetooth IDs of other app users (out-of-network users), and vice versa.</p>
+				<p><strong>How does the solution interact with public health authorities?</strong></p>
+				<p>Personal Data Accounts are highly flexible tools. As owners of PDAs, users can choose to share their data with applications other than Sharetrace. As it develops, Sharetrace will therefore be developing integrations that enable users to choose to share their risk scores and anonymised location history with public health authorities.</p>
+				<p><strong>What does a notification of contact with an infected person look like?</strong></p>
+				<p>Users will be notified twice a day of changes to their risk score. They can view their risk score by viewing our user interface. There are no direct notifications of encounters with risky individuals; instead, users are updated with changes to their score</p>
+				<p><strong>Who else is notified?</strong></p>
+				<p>All users will be updated twice a day if their risk score has changed. Risk scores will change based encounters people have had that day, or on previous days with people whose risk scores have since changed.</p>
+			</section>
+		</div>
+	</div>
+  
+	<!-- Footer -->
+	<div id="footer">
+		<div class="container medium">
+			<ul class="icons">
+				<li><a href="https://twitter.com/sharetrace_app" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="https://www.facebook.com/SafeTrace-111329340543957" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.linkedin.com/company/42695383" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>				<li><a target="_blank" href="https://github.com/SafeTrace-community" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			</ul>
+			<p>
+				<a href="/">home</a> | <a href="/news">news</a> | <a href="/privacy">privacy policy</a>
+			</p>
+			<ul class="copyright">
+				<li>&copy; sharetrace. All rights reserved.</li>
+			</ul>
+		</div>
+	</div>
+  
+	<!-- Scripts -->
+	<script src="/public/assets/js/jquery.min.js"></script>
+	<script src="/public/assets/js/browser.min.js"></script>
+	<script src="/public/assets/js/breakpoints.min.js"></script>
+	<script src="/public/assets/js/util.js"></script>
+	<script src="/public/assets/js/main.js"></script>
+	<script> var dib_id = 'Y2U5M0J9EAOYXWQ5S1HQ'; </script>
+	<script src="https://dropinblog.com/js/embed.js"></script>
+
+</body>
+
+</html>
