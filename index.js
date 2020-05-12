@@ -32,6 +32,9 @@ app.get('/faq', (req, res) => {
 app.get('/privacy', (req, res) => {
     res.render('privacy')
 })
+app.get('/contact', (req, res) => {
+    res.render('privacy')
+})
 
 app.post('/contact', (req, res) => {
     Promise

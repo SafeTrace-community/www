@@ -2,20 +2,26 @@
 <html>
 
 <head>
-	<title> sharetrace | The Trace</title>
+	<title> sharetrace | Contact</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/public/assets/css/main.css" />
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165600971-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-165600971-1');
-	</script>
 </head>
+<style>
+	#footer {
+		background-size: 4000px 200px;
+		margin-top: -25px;
+		padding: calc(184px + 2em) 0 2em 0;
+	}
+
+		#footer:before {
+			height: calc(184px + 2em);
+		}
+
+		#footer form {
+			padding-bottom: 0;
+		}
+</style>
 
 <body class="is-preload">
 
@@ -25,14 +31,26 @@
 			<a href="/"><img src="/public/images/sharetrace-logo.png" style="border-radius: 50%; width: 288px;" /></a>
 		</span>
 		<h1>
-			The Trace
+			Contact
 		</h1>
 	</div>
+	<br></br>
+	<h3>Reach out!</h3>
 
-	<!-- Main -->
-	<div id="main">
-		<div id="dib-posts">
-		</div>
+	<div class="container">
+	<form action="mailto: info@sharetrace.org" method="post" enctype="text/plain">
+		<label for="name">Name or Organization</label>
+		<input type="text" id="name" name="name" placeholder="John Doe">
+
+		<label for="email">Email address</label>
+		<input type="text" id="email" name="email" placeholder="youremail@address.com">
+
+		<label for="subject">Let's work together!</label>
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:240px"></textarea>
+
+		<!--<button type="button">Click Me!</button>-->
+		<div><input type="submit" value="Submit"></div>
+	</form>
 	</div>
 
 	<!-- Footer -->
@@ -63,5 +81,7 @@
 	<script src="/public/assets/js/main.js"></script>
 	<script> var dib_id = 'Y2U5M0J9EAOYXWQ5S1HQ'; </script>
 	<script src="https://dropinblog.com/js/embed.js"></script>
+
+
 </body>
 </html>
