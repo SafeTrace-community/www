@@ -33,7 +33,7 @@ app.get('/privacy', (req, res) => {
     res.render('privacy')
 })
 app.get('/contact', (req, res) => {
-    res.render('privacy')
+    res.render('contact')
 })
 
 app.post('/contact', (req, res) => {
