@@ -8,7 +8,7 @@ const config = yenv()
 const sendEmail = require('./utils/email.util')
 
 // set env vars into the app object
-app.set('port', config.PORT)
+app.set('port', process.env.PORT)
 
 // express middleware / special configs
 app.set('view engine', 'ejs')
@@ -64,6 +64,6 @@ app.get('*', (req, res) => {
     res.redirect('/')
 })
 
-app.listen(process.env.PORT || 5000), () => {
+app.listen(app.get('port'), () => {
     console.log(`App is now listening on port ${config.PORT}`)
-}
+})
