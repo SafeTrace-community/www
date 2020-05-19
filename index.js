@@ -64,6 +64,6 @@ app.get('*', (req, res) => {
     res.redirect('/')
 })
 
-app.listen(app.get('port'), () => {
+app.listen(process.env.PORT || 5000, () => {
     console.log(`App is now listening on port ${config.PORT}`)
 })
