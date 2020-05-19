@@ -9,7 +9,6 @@ const
 const sendEmail = require('./utils/email.util')
 
 // express middleware / special configs
-app.set('view engine', 'ejs')
 app.set('trust proxy', true)
 
 app.use('/public', express.static('public'))
@@ -62,6 +61,6 @@ app.get('*', (req, res) => {
     res.redirect('/')
 })
 
-app.listen(process.env.PORT || 3000), () => {
+app.listen(process.env.PORT || 5000), () => {
     console.log(`App is now listening on port ${config.PORT}`)
 }
