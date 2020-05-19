@@ -4,11 +4,9 @@ const yenv = require('yenv')
 
 const app = express()
 const config = yenv()
+const 
 
 const sendEmail = require('./utils/email.util')
-
-// set env vars into the app object
-app.set('port', config.PORT)
 
 // express middleware / special configs
 app.set('view engine', 'ejs')

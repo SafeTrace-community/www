@@ -1,11 +1,11 @@
-### SafeTrace Website
-https://safetrace.io
+### ShareTrace Website
+https://www.sharetrace.org
 
-Welcome! This repository houses the SafeTrace website assets and documentation. 
+Welcome! This repository houses the ShareTrace website assets and documentation. 
 
-If you would like to engage with the SafeTrace community on Slack or over email please send us an email at info@safetrace.io.
+If you would like to engage with the ShareTrace community on Slack or over email please send us an email at info@sharetrace.org.
 
 Code of conduct
-Participation in the SafeTrace community is free from discrimination and abuse. Please act responsibly and with consideration.
+Participation in the ShareTrace community is free from discrimination and abuse. Please act responsibly and with consideration.
 
 Thank you!
