@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="530px" viewBox="0 0 1600 530" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>EAABD6A5-EDBF-4431-8E91-54CF929207F4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="30.5690877%" x2="101.999998%" y2="69.8195301%" id="linearGradient-1">
+            <stop stop-color="#478A83" offset="0%"></stop>
+            <stop stop-color="#70BCD6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1.11786025%" y1="28.3520092%" x2="100.859171%" y2="72.1039249%" id="linearGradient-2">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#70BCD6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.90587142%" y1="24.7834716%" x2="99.032204%" y2="75.7829469%" id="linearGradient-3">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#70BCD6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sharetrace">
+            <g id="Group-3" transform="translate(-21.571168, -627.168225)">
+                <path d="M22,8 L1655,8 L1655,804.37699 C1655,874.109511 1655,920.259068 1655,942.825662 C1368.02098,1132.30819 934.61417,947.854866 652.929644,882.108298 C272.655512,793.350427 160.45416,804.37699 22,829.1521 C22,815.068202 22,541.350836 22,8 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                <path d="M40.2224513,0 L1705,58.1373284 L1676.65922,869.739106 C1674.17764,940.804743 1672.53531,987.836567 1671.73223,1010.83458 C1372.42557,1193.72265 937.148997,990.313078 652.322731,913.281191 C267.807251,809.288137 153.0301,816.53096 11,836.850527 C11.5012056,822.49738 21.2420227,543.547204 40.2224513,0 Z" id="Rectangle-Copy" fill="url(#linearGradient-2)" opacity="0.100000001"></path>
+                <path d="M72.9600712,3 L1732,148.104062 L1661.24122,956.64034 C1655.04542,1027.43755 1650.945,1074.29174 1648.93993,1097.20288 C1340.54904,1264.07828 916.619934,1038.29729 636.285287,946.517147 C257.833492,822.613944 142.863249,823.838949 0,836.689661 C1.2513664,822.390727 25.5713901,544.494173 72.9600712,3 Z" id="Rectangle-Copy-2" fill="url(#linearGradient-3)" opacity="0.100000001"></path>
+            </g>
+        </g>
+    </g>
+</svg>

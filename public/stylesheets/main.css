@@ -1,0 +1,108 @@
+.jumbotron {
+  background: #FFFFFF;
+  padding-bottom: 30px; }
+  .jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7; }
+    .jumbotron .btn-primary:hover {
+      background: #7646c1; }
+  .jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em; }
+  .navbar + .jumbotron {
+    margin-top: -20px; }
+  .jumbotron .group-4 {
+    height: 363px;
+    width: 338px; }
+  .jumbotron .lang-logo img {
+      max-width: 100%; }
+
+.hook { 
+  background: #FFFFFF; }
+  .hook .infection-risk {
+    font-family: "Source Sans Pro";
+    color: #478A83;
+    font-size: 24px;
+    line-height: 31px; }
+  .hook .dynamic {
+    font-family: "Source Sans Pro";
+    color: #595959;
+    font-size: 36px;
+    line-height: 45px; }
+  .hook .we-provide {
+    margin: auto;
+    width: 814px;
+    font-family: "Source Sans Pro";
+    color: #282B2C;
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 36px; }
+
+.call-to-action {
+  font-family: "Source Sans Pro";
+  margin-bottom: 36px;
+  }
+  .call-to-action .btn-clear {
+    padding: 10px 31.5px;
+    border-radius: 31.5px;
+    background-color: #595959;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 31px; }  
+  .call-to-action .btn-color {
+    padding: 10px 31.5px;
+    border-radius: 31.5px;
+    background-color: #478A83;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 31px; }
+
+.body-copy {
+
+}
+  body
+
+  .jumbotron .infection-risk-dyna h2 {
+    font-size: 24px;
+    line-height: 31px;
+    color: #478A83;
+    text-align: center; }
+  .we-provide-people-wi p {
+    height: 434px;
+    width: 814px;
+    color: #282B2C;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 31px;
+    text-align: center; }
+  .contact-tracing-is-k {
+    height: 331px;
+    width: 560px;
+    color: #595959;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 23px; }
+  .the-sharetrace-white h1 {
+    color: #595959;
+    font-family: "Source Sans Pro";
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 45px;
+    text-align: center; }
+  .the-share-trace p {
+    height: 143px;
+    width: 1180px;
+    color: #595959;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 31px;
+    text-align: center; }
